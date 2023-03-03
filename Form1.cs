@@ -20,7 +20,7 @@ namespace CalcoloCodiceFiscale
                     var completo = new Comune(comune, codComune);
 
                     cbx_comune_nascita.Items.Add(completo);
-                    cbx_comune_nascita.DisplayMember = "comune";
+                    cbx_comune_nascita.DisplayMember = "Nome";
 
 
                 }
