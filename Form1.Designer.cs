@@ -36,7 +36,7 @@
             this.btn_femmina = new System.Windows.Forms.RadioButton();
             this.gbx_Sesso = new System.Windows.Forms.GroupBox();
             this.cbx_comune_nascita = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_nome = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -115,14 +115,14 @@
             this.cbx_comune_nascita.Size = new System.Drawing.Size(337, 33);
             this.cbx_comune_nascita.TabIndex = 7;
             // 
-            // label1
+            // lbl_nome
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 25);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Nome";
+            this.lbl_nome.AutoSize = true;
+            this.lbl_nome.Location = new System.Drawing.Point(88, 52);
+            this.lbl_nome.Name = "lbl_nome";
+            this.lbl_nome.Size = new System.Drawing.Size(61, 25);
+            this.lbl_nome.TabIndex = 8;
+            this.lbl_nome.Text = "Nome";
             // 
             // label2
             // 
@@ -169,7 +169,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_nome);
             this.Controls.Add(this.cbx_comune_nascita);
             this.Controls.Add(this.gbx_Sesso);
             this.Controls.Add(this.tpk_data_nascita);
@@ -195,7 +195,7 @@
         private RadioButton btn_femmina;
         private GroupBox gbx_Sesso;
         private ComboBox cbx_comune_nascita;
-        private Label label1;
+        private Label lbl_nome;
         private Label label2;
         private Label label3;
         private Label label4;
